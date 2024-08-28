@@ -1,7 +1,12 @@
 language: python
-pyhton:
-  - 3.11
-beforme_script:
-  -cd src
-srcipt:
-  -python -teste.py
+python:
+  - "3.8"
+  - "3.9"
+  - "3.12.1"
+  - "3.11"
+before_script:
+  - cd src
+install:
+  - pip install -r requirements.txt
+script: 
+ - python - teste.py
