@@ -1,0 +1,7 @@
+language: python
+pyhton:
+  - 3.11
+beforme_script:
+  -cd src
+srcipt:
+  -python -teste.py
